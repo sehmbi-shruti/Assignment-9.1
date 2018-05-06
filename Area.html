@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area</title>
+</head>
+<body>
+<script>
+class Rectangle
+{
+	constructor(length,breadth)
+	{
+	this.length = length;
+	this.breadth = breadth;
+	}
+	calculateArea(length,breadth)
+	{
+	let area = length * breadth;
+	return "The area of the rectangle is : " + area;
+	}
+}
+let a = new Rectangle(5,6);
+console.log(a);
+a.calculateArea(5,6);
+</script>
+</body>
+</html>
